@@ -6,7 +6,7 @@
     <td>@Model.EmployeeCount</td>
 
     <td>
-        <a asp-controller="Employee" asp-action="Index" asp-route-departmentId="@Model.Id">
+        <a asp-page="Employee/EmployeeList" asp-route-departmentId="@Model.Id">
             Employees
         </a>
     </td>
